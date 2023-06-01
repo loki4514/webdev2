@@ -1,0 +1,43 @@
+.navbar-brand {
+    padding-left: 150px;
+}
+#navbarNav {
+    padding-left: 50px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 50px; /* Adjust the margin value as per your preference */
+  }
+
+  .container-fluid1 {
+    font-family: sans-serif;
+    background-color: lightblue;
+    font-weight: bolder;
+    height: 50vh;
+}
+
+.container-fluid2 h1{
+
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.container-fluid2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    gap: 2rem;
+}
+
+.container-fluid2 .card {
+    width: 30rem;
+    height: 12rem;
+    
+    background-color: antiquewhite;
+    
+}
+ .container-fluid2 .card .card-body {
+    
+    text-align: justify;
+}
