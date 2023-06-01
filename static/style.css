@@ -10,26 +10,28 @@
   }
 
   .container-fluid1 {
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightblue;
     font-weight: bolder;
     height: 50vh;
 }
 
-.container-fluid2 h1{
 
-    padding-left: 50px;
-    padding-top: 20px;
-}
 
 .container-fluid2{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    
-    gap: 2rem;
+    margin-top: 50px;
+    gap: 6rem;
+    font-family: sans-serif;
 }
 
+.heading {
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
 .container-fluid2 .card {
     width: 30rem;
     height: 12rem;
@@ -37,7 +39,56 @@
     background-color: antiquewhite;
     
 }
- .container-fluid2 .card .card-body {
-    
+
+.container-fluid2 .card .card-body {
+    font-family:cursive;
     text-align: justify;
 }
+
+.container-fluid2 .card .card-body h5 {
+    font-weight: bolder;
+    font-family : cursive;
+}
+
+
+.logo-container {
+    display: flex;
+    font-weight: bolder;
+    font-family: cursive;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F6F4;
+  }
+
+  .logo-container img {
+    margin: 20px;
+    max-width: 135px; 
+    max-height: 135px;
+  }
+
+.logo-container div {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+  
+.footer {
+    background-color:honeydew;
+    text-align: center;
+    padding-top: 50px;
+    height: 15vh;
+    text-decoration: none;
+    list-style: none;
+    
+
+  }
+
+
+
+  .footer a img {
+    list-style: none;
+    height: 100px;
+    width: 100px;
+    gap: 12rem;
+  }
