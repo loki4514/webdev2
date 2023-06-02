@@ -75,7 +75,9 @@
   
 .footer {
     background-color:honeydew;
-    text-align: center;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
     padding-top: 50px;
     height: 15vh;
     text-decoration: none;
@@ -86,9 +88,44 @@
 
 
 
-  .footer a img {
+  .footer a svg {
     list-style: none;
-    height: 100px;
-    width: 100px;
-    gap: 12rem;
+    height: 35px;
+    width: 35px;
+
+    text-decoration: none;
+    color: black;
+    
   }
+
+  .footer a {
+    margin-right: 20px; /* Adjust the value as needed */
+  }
+
+
+  .container-fluid3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    gap: 6rem;
+  }
+
+  .content1 {
+    width : 30rem;
+    height : 30rem;
+    text-align: justify;
+    font-family: cursive;
+  }
+
+.img1 {
+  width : 30rem;
+  height : 30rem;
+  justify-content: center;
+}
+.img1 img {
+  width : 440px;
+  height: 450px;
+  align-content: center;
+  padding-top: 20px;
+}
